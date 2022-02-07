@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/sumowski/static/css/main.01598437.css",
+    "main.js": "/sumowski/static/js/main.9fcda243.js",
+    "static/js/787.444e7df5.chunk.js": "/sumowski/static/js/787.444e7df5.chunk.js",
+    "static/media/IMG_0140.mov": "/sumowski/static/media/IMG_0140.fa117c552ba52ad919ac.mov",
+    "static/media/websiteBackground.png": "/sumowski/static/media/websiteBackground.bebfb8e6d2aa7d158dca.png",
+    "static/media/websiteLogo.jpg": "/sumowski/static/media/websiteLogo.6cb9d9a7238196a47146.jpg",
+    "index.html": "/sumowski/index.html",
+    "main.01598437.css.map": "/sumowski/static/css/main.01598437.css.map",
+    "main.9fcda243.js.map": "/sumowski/static/js/main.9fcda243.js.map",
+    "787.444e7df5.chunk.js.map": "/sumowski/static/js/787.444e7df5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01598437.css",
+    "static/js/main.9fcda243.js"
+  ]
+}
