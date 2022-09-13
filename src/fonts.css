@@ -1,0 +1,56 @@
+
+
+@font-face {
+    font-family: 'montserratregular';
+    src: url('fonts/montserrat.regular-webfont.woff2') format('woff2'),
+         url('fonts/montserrat.regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratbold';
+    src: url('fonts/montserrat.bold-webfont.woff2') format('woff2'),
+         url('fonts/montserrat.bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.montserratBold {
+    font-family: montserratbold;
+}
+.montserratReg {
+    font-family: montserratregular;
+}
+.poultrygheist {
+    font-family: poultrygeistregular;
+}
+.poultrygheistFlip{
+    font-family: poultrygeist_outregular;
+}
+
+@font-face {
+    font-family: 'poultrygeist_outregular';
+    src: url('fonts/poultrygeist.out-webfont.woff2') format('woff2'),
+         url('fonts/poultrygeist.out-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'poultrygeistregular';
+    src: url('fonts/poultrygeist.regular-webfont.woff2') format('woff2'),
+         url('fonts/poultrygeist.regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

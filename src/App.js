@@ -1,5 +1,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css'
+import './fonts.css'
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import JackNav from './navv';
 import Shop from './shop';
@@ -10,8 +11,9 @@ import Contact from './contact';
 function App() {
 
   return (
+    
     <Router>
-
+      
     <div>
       <JackNav/>
       <div className='container-fluid' >

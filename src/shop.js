@@ -1,5 +1,5 @@
 import React from 'react';
-import data from './shopData';
+import data from './itemData';
 import ShopItem from './shopItem';
 
 
@@ -13,6 +13,7 @@ export default function Shop() {
                 price={item.price}
                 frontPic={ item.frontPic}
                 backPic={item.backPic}
+                oneSided={item.oneSided}
             /></div> 
         ))}
     </div>

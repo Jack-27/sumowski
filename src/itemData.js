@@ -1,16 +1,130 @@
-export default [
+export default [ 
     {
-      name: 'YELLOW SHIRT',
+      name: 'Piano Cat',
       price: '20',
-      frontPic: '/shopImages/shirt.jpg',
-      backPic: '/shopImages/blackShirt.jpeg',
-      descr: 'This shirt is straight up yellow ;p'
+      closeFrontPic: '/shopImages/Close/Front/Piano.png',
+      closeBackPic: '/shopImages/Close/Back/Piano.png',
+      frontPic: '/shopImages/Flat/Front/Piano.png',
+      backPic: '/shopImages/Flat/Back/Piano.png',
+      wearFrontPic: '/shopImages/Fitted/Front/Piano.png',
+      wearBackPic: '/shopImages/Fitted/Back/Piano.png',
+      descr: '100% Cotton \n Heat Transfer Vinyl \n Sumo is a cat of many talents. Listen to his sweet, soothing blues with Mr. Mowski and let your troubles melt away. \n WASHING INSTRUCTIONS: \n To make it last the longest, turn the shirt inside out and wash on cold, then air dry.  \n Handmade in Denver CO, design created by Dayton Bedin and Tripp Frandsen. The designs are then cut out and heat pressed onto the t-shirt. ',
+      id: 'piano',
+      decimalPrice: 20.00,
+      oneSided: true
+    },
+    // {
+    //   name: 'Inmate 00013',
+    //   price: '20',
+    //   closeFrontPic: null,
+    //   closeBackPic: null,
+    //   frontPic: '/shopImages/Flat/Front/Inmate.png',
+    //   backPic: '/shopImages/Flat/Back/Inmate.png',
+    //   wearFrontPic: null,
+    //   wearBackPic: null,
+    //   descr: '100% Cotton \n Heat Transfer Vinyl \n A man with a troubled past. What did he do? And what’s under the bag? \n WASHING INSTRUCTIONS: \n To make it last the longest, turn the shirt inside out and wash on cold, then air dry.  \n Handmade in Denver CO, design created by Dayton Bedin. The designs are then cut out and heat pressed onto the t-shirt. ',
+    //   id: 'inmate',
+    //   decimalPrice: 20.00,
+    //   oneSided: true
+    // },
+    {
+      name: 'Mr.Mowski',
+      price: '20',
+      closeFrontPic: '/shopImages/Close/Front/Mowski.png',
+      closeBackPic: '/shopImages/Close/Back/Mowski.png',
+      frontPic: '/shopImages/Flat/Front/Mowski.png',
+      backPic: '/shopImages/Flat/Back/Mowski.png',
+      wearFrontPic: '/shopImages/Fitted/Front/Mowski.png',
+      wearBackPic: '/shopImages/Fitted/Back/Mowski.png',
+      descr: '100% Cotton \n Heat Transfer Vinyl \n Mr. Mowski is a mouse with some problems. He needs a little extra help sometimes, and that’s ok. \n WASHING INSTRUCTIONS: \n To make it last the longest, turn the shirt inside out and wash on cold, then air dry.  \n Handmade in Denver CO, design created by Dayton Bedin. The designs are then cut out and heat pressed onto the t-shirt. ',
+      id: 'mowski',
+      decimalPrice: 20.00,
+      oneSided: true
     },
     {
-        name: 'BLACK SHIRT',
-        price: '20',
-        frontPic: '/shopImages/blackShirt.jpeg',
-        backPic: '/shopImages/shirt.jpg',
-        descr: 'Black shirt fuck yuo'
-      }
+      name: 'Govern Yourself',
+      price: '20',
+      closeFrontPic: '/shopImages/Close/Front/Govern.png',
+      closeBackPic: '/shopImages/Close/Back/Govern.png',
+      frontPic: '/shopImages/Flat/Front/Govern.png',
+      backPic: '/shopImages/Flat/Back/Govern.png',
+      wearFrontPic: '/shopImages/Fitted/Front/Govern.png',
+      wearBackPic: '/shopImages/Fitted/Back/Govern.png',
+      descr: '100% Cotton \n Heat Transfer Vinyl \n Xiii is our demon friend. He only has your best interests in mind. Be the change you want to see. \n WASHING INSTRUCTIONS: \n To make it last the longest, turn the shirt inside out and wash on cold, then air dry.  \n Handmade in Denver CO, design created by Dayton Bedin. The designs are then cut out and heat pressed onto the t-shirt.',
+      id: 'govern',
+      decimalPrice: 20.00,
+      oneSided: true
+    },
+    {
+      name: 'Cloak',
+      price: '20',
+      closeFrontPic: '/shopImages/Close/Front/Cloak.png',
+      closeBackPic: '/shopImages/Close/Back/Cloak.png',
+      frontPic: '/shopImages/Flat/Front/Cloak.png',
+      backPic: '/shopImages/Flat/Back/Cloak.png',
+      wearFrontPic: '/shopImages/Fitted/Front/Cloak.png',
+      wearBackPic: '/shopImages/Fitted/Back/Cloak.png',
+      descr: '100% Cotton \n Heat Transfer Vinyl \n Sumo, a cat shrouded in mystery. Inspired by SPAWN \n WASHING INSTRUCTIONS: \n To make it last the longest, turn the shirt inside out and wash on cold, then air dry.  \n Handmade in Denver CO, design created by Dayton Bedin. The designs are then cut out and heat pressed onto the t-shirt. ',
+      id: 'cloak',
+      decimalPrice: 20.00,
+      oneSided: true
+    },
+    {
+      name: 'Melt Face',
+      price: '20',
+      closeFrontPic: '/shopImages/Close/Front/Melt.png',
+      closeBackPic: null,
+      frontPic: '/shopImages/Flat/Front/Melt.png',
+      backPic: null,
+      wearFrontPic: '/shopImages/Fitted/Front/Melt.png',
+      wearBackPic: null,
+      descr: '100% Cotton \n Heat Transfer Vinyl \n Xiii is a part of all of us. Melt away the layers and you’ll understand. \n WASHING INSTRUCTIONS: \n To make it last the longest, turn the shirt inside out and wash on cold, then air dry.  \n Handmade in Denver CO, design created by Dayton Bedin. The designs are then cut out and heat pressed onto the t-shirt. ',
+      id: 'melty',
+      decimalPrice: 20.00,
+      oneSided: false
+    },
+    {
+      name: 'Haunted',
+      price: '20',
+      closeFrontPic: '/shopImages/Close/Front/Haunted.png',
+      closeBackPic: null,
+      frontPic: '/shopImages/Flat/Front/Haunted.png',
+      backPic: null,
+      wearFrontPic: '/shopImages/Fitted/Front/Haunted.png',
+      wearBackPic: null,
+      descr: '100% Cotton \n Heat Transfer Vinyl \n If you feel like you’re being watched, you probably are. Remember: there’s safety in numbers. \n WASHING INSTRUCTIONS: \n To make it last the longest, turn the shirt inside out and wash on cold, then air dry.  \n Handmade in Denver CO, design created by Dayton Bedin and Macon Taylor. The designs are then cut out and heat pressed onto the t-shirt. ',
+      id: 'ghosts',
+      decimalPrice: 20.00,
+      oneSided: false
+    },
+    {
+      name: 'Sumo Knows',
+      price: '20',
+      closeFrontPic: null,
+      closeBackPic: null,
+      frontPic: '/shopImages/Flat/Front/Knows.png',
+      backPic: '/shopImages/Flat/Back/Knows.png',
+      wearFrontPic: '/shopImages/Fitted/Front/Knows.png',  
+      wearBackPic: '/shopImages/Fitted/Back/Knows.png',
+      descr: '100% Cotton \n Heat Transfer Vinyl \n Have you ever felt unwell? Don’t worry, Sumo understands and he’s here for you. You don’t have to say a word.  \n WASHING INSTRUCTIONS: \n To make it last the longest, turn the shirt inside out and wash on cold, then air dry.  \n Handmade in Denver CO, design created by Dayton Bedin. The designs are then cut out and heat pressed onto the t-shirt. ',
+      id: 'sumo',
+      decimalPrice: 20.00,
+      oneSided: true
+    },
+    {
+      name: 'Skeletons',
+      price: '20',
+      closeFrontPic: '/shopImages/Close/Front/Cone.png',
+      closeBackPic: '/shopImages/Close/Back/Cone.png',
+      frontPic: '/shopImages/Flat/Front/Cone.png',
+      backPic: '/shopImages/Flat/Back/Cone.png',
+      wearFrontPic: '/shopImages/Fitted/Front/Cone.png',
+      wearBackPic: '/shopImages/Fitted/Back/Cone.png',
+      descr: '100% Cotton \n Heat Transfer Vinyl \n Praise the cone! \n WASHING INSTRUCTIONS: \n To make it last the longest, turn the shirt inside out and wash on cold, then air dry.  \n Handmade in Denver CO, design created by Jack Franklin. The designs are then cut out and heat pressed onto the t-shirt. ',
+      id: 'cone',
+      decimalPrice: 20.00,
+      oneSided: true
+    }
+    
+
   ]

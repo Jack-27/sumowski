@@ -20,6 +20,12 @@ export default function Item() {
             frontPic={ item.frontPic}
             backPic={item.backPic}
             descr={item.descr}
+            wearFrontPic={item.wearFrontPic}
+            wearBackPic={item.wearBackPic}
+            id={item.id}
+            decimalPrice={item.decimalPrice}
+            closeFrontPic={item.closeFrontPic}
+            closeBackPic={item.closeBackPic}
         />
       
             )

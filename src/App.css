@@ -1,5 +1,5 @@
 body {
-  background-image: url("pictures/websiteBackground.png")
+  background-image: url("pictures/bg.png")
 }
 .bg-myBlack {
   background-color: black;
@@ -8,10 +8,59 @@ body {
   position: fixed;
   top: -20px;
 } */
-
+.navLinkFont {
+  font-size: 3.5em;
+}
 .productPic {
   border-width: 5px !important;
 }
 .imgBorder {
   background-color: black;
+}
+
+.not-bold {
+  font-size: 2rem;
+}
+.small-boi {
+  font-size: 1rem;
+}
+.not-bold2 {
+  font-size: 1.5rem;
+}
+.small-boi2 {
+  font-size: .75rem;
+}
+
+.box {
+  display: flex;
+  justify-content: space-evenly;
+}
+.boxItem {
+  flex-shrink: 30;
+  padding-left: 0;
+  padding-right: 0;
+}
+.flip {
+
+  padding-left: 2px !important;
+  padding-top: 2px !important;
+  padding-bottom: 2px !important;
+  padding-right: 2px !important;
+  border-radius: 20px !important;
+}
+.artistBody {
+  height: 280px;
+  background-color: black;
+  border-radius: 20%;
+
+}
+.artistPic {
+  height: 300px;
+
+}
+
+.art-link-text {
+  font-size: 1.4em;
+  text-decoration: none;
+  color: white;
 }
