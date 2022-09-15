@@ -19,13 +19,13 @@ export default function JackNav() {
             <Navbar.Toggle className='mx-3'/>
             <Navbar.Collapse>
                 <Nav className='ms-auto'>                
-                    <Nav.Link eventKey="1"><Link  className= 'px-5 nav-link' to='/shop' ><h1 className="text-white poultrygheist navLinkFont">Shop</h1></Link></Nav.Link>
-                    <Nav.Link eventKey="2"><Link  className= 'px-5 nav-link' to='/contactUs' ><h1 className="text-white poultrygheist navLinkFont">Contact Us</h1></Link></Nav.Link>
+                    <Nav.Link eventKey="1"><Link  className= 'px-2 nav-link' to='/shop' ><h3 className="text-white poultrygheist navLinkFont center-text">Shop</h3></Link></Nav.Link>
+                    <Nav.Link eventKey="2"><Link  className= 'px-2 nav-link' to='/contactUs' ><h1 className="text-white poultrygheist navLinkFont">Contact Us</h1></Link></Nav.Link>
                 </Nav>
             </Navbar.Collapse>
             
         </Navbar>
-        <div className='py-5'></div>
+        <div className='py-2'></div>
       </div>
     )
 }
