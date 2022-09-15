@@ -1,6 +1,6 @@
-body {
+/* body {
   background-image: url("pictures/bg.png")
-}
+} */
 .bg-myBlack {
   background-color: black;
 }
@@ -9,7 +9,8 @@ body {
   top: -20px;
 } */
 .navLinkFont {
-  font-size: 3.5em;
+  font-size: 2.0em;
+  text-align: center;
 }
 .productPic {
   border-width: 5px !important;
@@ -63,4 +64,52 @@ body {
   font-size: 1.4em;
   text-decoration: none;
   color: white;
+}
+
+.carousel-indicators {
+  margin-top: 50px !important;
+  bottom: -35% !important;
+  margin-left: 5px !important;
+  margin-right: 5px !important;
+  height: 25%;
+  
+}
+
+
+/* Indicators list style */
+.carousel-indicators button {
+  border: medium none;
+  border-radius: 0;
+  float: left;
+  height: 90% !important;
+  margin-bottom: 5px;
+  margin-left: 0;
+  margin-right: 5px !important;
+  margin-top: 5px;
+  width: 48% !important;
+  opacity: 1 !important;
+  background-color: white !important;
+  border: 0px !important;
+}
+/* Indicators images style */
+.carousel-indicators img {
+  border: 2px solid #666666;
+  float: left;
+  height: 100%;
+  left: 0;
+  opacity: 1;
+  
+}
+/* Indicators active image style */
+.carousel-indicators .active img {
+  border: 2px solid #000000;
+  opacity: 1;
+}
+
+.bottom-margin {
+  margin-bottom: 55% !important;
+}
+
+.carousel-divider {
+  width:55%;
 }
