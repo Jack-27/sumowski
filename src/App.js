@@ -7,6 +7,7 @@ import Shop from './shop';
 import Home from './home'
 import Item from './item'
 import Contact from './contact';
+import Home2 from './newHome';
 
 function App() {
 
@@ -19,7 +20,7 @@ function App() {
       <div className='container-fluid' >
         <Switch>
             <Route exact path='/'>
-                <Home/>
+                <Home2/>
             </Route>
             <Route exact path='/shop'>
                 <Shop/>
