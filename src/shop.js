@@ -1,5 +1,5 @@
 import React from 'react';
-import data from './shopData';
+import data from './itemData';
 import ShopItem from './shopItem';
 
 
@@ -11,8 +11,9 @@ export default function Shop() {
                 key={item.name}
                 name={item.name}
                 price={item.price}
-                frontPic={ item.frontPic}
-                backPic={item.backPic}
+                frontPic={ item.pic1}
+                backPic={item.pic2}
+                oneSided={item.oneSided}
             /></div> 
         ))}
     </div>

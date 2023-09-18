@@ -17,9 +17,15 @@ export default function Item() {
             key={item.name}
             name={item.name}
             price={item.price}
-            frontPic={ item.frontPic}
-            backPic={item.backPic}
             descr={item.descr}
+            id={item.id}
+            decimalPrice={item.decimalPrice}
+            pic1={ item.pic1}
+            pic2={item.pic2}
+            pic3={item.pic3}
+            pic4={item.pic4}
+            pic5={item.pic5}
+            pic6={item.pic6}
         />
       
             )

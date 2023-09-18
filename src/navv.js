@@ -1,26 +1,40 @@
 import React from 'react';
-import {Link} from 'react-router-dom'
+import {Link, NavLink} from 'react-router-dom'
 import { Nav, Navbar} from 'react-bootstrap'
-import logo from './pictures/websiteLogo.jpg'
+import logo from './pictures/Full Color.png'
 
 
 export default function JackNav() {
     return (
         <div>
 
-            <Navbar bg="myBlack" variant = 'dark' >
-            <Navbar.Brand>
-                <Link to='/' >
-                    <img src= {logo} height = '150px' className='logo'/>
-                </Link>
-                
-            </Navbar.Brand>
-            <Nav className='ms-auto'>                
-                <Link className= 'px-5 nav-link' to='/shop' ><h1 class="text-white">Shop</h1></Link>
-                <Link className= 'px-5 nav-link' to='/contactUs' ><h1 class="text-white">Contact Us</h1></Link>
-            </Nav>
+            <Navbar expand='lg' collapseOnSelect > 
+            <div className=''>
+                <Navbar.Brand>
+                    <Link to='/' >                 
+                        <img src= {logo} height='200px' className='logo d-lg-none'/> 
+                    </Link>
+                </Navbar.Brand>
+            </div>
+            <Navbar.Toggle className='mx-3'/>
+            <Navbar.Collapse>
+                <Nav className='w-100 mx-auto'>
+                    <div className='row w-100'>
+                        <div className='col-3'></div>
+                        <div className='col-6 text-center'>
+                        <Link to='/' > <img src= {logo} height='150px' className=' mx-auto logo d-none d-lg-block'/></Link>
+                        </div>
+                        <div className='col-3'>
+                            <Nav.Link eventKey="1"><Link  className= 'px-2 nav-link' to='/shop' ><h3 className="text-black poultrygheist navLinkFont center-text">Shop</h3></Link></Nav.Link>
+                            <Nav.Link eventKey="2"><Link  className= 'px-2 nav-link' to='/contactUs' ><h1 className="text-black poultrygheist navLinkFont">Contact Us</h1></Link></Nav.Link>
+                        </div>
+                    </div>                   
+                                   </Nav>
+            </Navbar.Collapse>
+            
         </Navbar>
-        <div className='py-5'></div>
+        <hr className="solid my-1"></hr>
+        <div className='py-2'></div>
       </div>
     )
 }
