@@ -1,31 +1,38 @@
 {
   "files": {
-    "main.css": "/static/css/main.1d91bbc7.css",
-    "main.js": "/static/js/main.493f2d3e.js",
+    "main.css": "/static/css/main.755d4177.css",
+    "main.js": "/static/js/main.023c615c.js",
     "static/js/787.444e7df5.chunk.js": "/static/js/787.444e7df5.chunk.js",
     "static/media/IMG_0140.mov": "/static/media/IMG_0140.fa117c552ba52ad919ac.mov",
     "static/media/jack.JPG": "/static/media/jack.b8dfc42041bfbf1d1bd6.JPG",
     "static/media/trippsquare.JPG": "/static/media/trippsquare.b54d3eb147143100e58e.JPG",
-    "static/media/bg.png": "/static/media/bg.9a1a9ba48f1baaade734.png",
+    "static/media/logo.png": "/static/media/logo.d87e0e4fa2efc14aa7ca.png",
+    "static/media/Full Color.png": "/static/media/Full Color.68ba5d0cfb19362f56ef.png",
     "static/media/poultrygeist.out-webfont.woff": "/static/media/poultrygeist.out-webfont.e9ad2963f2f3c8e5e094.woff",
     "static/media/Untitled_Artwork.jpg": "/static/media/Untitled_Artwork.1463b687c3cec46809b9.jpg",
     "static/media/finalGif.gif": "/static/media/finalGif.c73dd4f06f5786932fbc.gif",
     "static/media/poultrygeist.out-webfont.woff2": "/static/media/poultrygeist.out-webfont.a9580d1ab4751fe94d68.woff2",
     "static/media/poultrygeist.regular-webfont.woff": "/static/media/poultrygeist.regular-webfont.e5cff2ecf68ae1781024.woff",
     "static/media/poultrygeist.regular-webfont.woff2": "/static/media/poultrygeist.regular-webfont.e47f8effed01f6e746ab.woff2",
+    "static/media/aleo.bold-webfont.woff": "/static/media/aleo.bold-webfont.5d926fff4fbffd96c59c.woff",
+    "static/media/penguin1.jpg": "/static/media/penguin1.33cf35e136a38b0ed59d.jpg",
+    "static/media/images (2).jpg": "/static/media/images (2).f32997ecc0ad89df82b0.jpg",
+    "static/media/aleo.bold-webfont.woff2": "/static/media/aleo.bold-webfont.bf9588071624670e362d.woff2",
+    "static/media/eisloPic.jpg": "/static/media/eisloPic.edd95cda9667a373f569.jpg",
+    "static/media/images.jpg": "/static/media/images.2c98d94bc287ec7059a2.jpg",
+    "static/media/devito 2.jpg": "/static/media/devito 2.42acf191c8ebd0510286.jpg",
     "static/media/montserrat.bold-webfont.woff": "/static/media/montserrat.bold-webfont.fcbb782efcb1a9039847.woff",
     "static/media/montserrat.regular-webfont.woff": "/static/media/montserrat.regular-webfont.49401e8f3f42b19430af.woff",
     "static/media/montserrat.bold-webfont.woff2": "/static/media/montserrat.bold-webfont.f43e71fe47366ad2fc71.woff2",
     "static/media/montserrat.regular-webfont.woff2": "/static/media/montserrat.regular-webfont.e1c785b5a49fed1ddfcb.woff2",
-    "static/media/websiteLogo.png": "/static/media/websiteLogo.999cfb428f1fd6505063.png",
     "index.html": "/index.html",
     "static/media/filp.svg": "/static/media/filp.538bfdab976a6004e8d8c8c0c06c10c6.svg",
-    "main.1d91bbc7.css.map": "/static/css/main.1d91bbc7.css.map",
-    "main.493f2d3e.js.map": "/static/js/main.493f2d3e.js.map",
+    "main.755d4177.css.map": "/static/css/main.755d4177.css.map",
+    "main.023c615c.js.map": "/static/js/main.023c615c.js.map",
     "787.444e7df5.chunk.js.map": "/static/js/787.444e7df5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d91bbc7.css",
-    "static/js/main.493f2d3e.js"
+    "static/css/main.755d4177.css",
+    "static/js/main.023c615c.js"
   ]
 }
