@@ -20,7 +20,7 @@ function App() {
       <div className='container-fluid' >
         <Switch>
             <Route exact path='/'>
-                <Home2/>
+                <Shop/>
             </Route>
             <Route exact path='/shop'>
                 <Shop/>

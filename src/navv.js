@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link, NavLink} from 'react-router-dom'
 import { Nav, Navbar} from 'react-bootstrap'
-import logo from './pictures/websiteLogo.png'
+import logo from './pictures/Full Color.png'
 
 
 export default function JackNav() {
@@ -12,7 +12,7 @@ export default function JackNav() {
             <div className=''>
                 <Navbar.Brand>
                     <Link to='/' >                 
-                        <img src= {logo} height='100px' className='logo d-lg-none'/> 
+                        <img src= {logo} height='200px' className='logo d-lg-none'/> 
                     </Link>
                 </Navbar.Brand>
             </div>
